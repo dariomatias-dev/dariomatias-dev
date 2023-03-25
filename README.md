@@ -9,7 +9,7 @@
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&hide_border=true&langs_count=10&layout=compact&theme=tokyonight" />
 </div>
 
-<div align="center" style="display: inline_block, marginBottom: 50px,"><br>
+<div align="center" style="display: inline_block"><br>
   <img align="center" alt="TypeScript icon" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="React icon" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center"  alt="Next.js icon" height="50" width="60" src="./assets/nextjs.svg" />
@@ -62,7 +62,7 @@
 
 <div align="center">
   <p align="centre">
-    **Contador de visitantes**
+    <b>Contador de visitantes</b>
   </p>
   <p align="center">
     <img align="center" src="https://profile-counter.glitch.me/{dariomatias-dev}/count.svg" />
