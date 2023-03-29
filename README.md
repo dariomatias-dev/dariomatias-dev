@@ -9,7 +9,7 @@
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&hide_border=true&langs_count=10&layout=compact&theme=tokyonight" />
 </div>
 
-<div align="center" style="display: inline_block, marginBottom: 50px,"><br>
+<div align="center" style="display: inline_block"><br>
   <img align="center" alt="TypeScript icon" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="React icon" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center"  alt="Next.js icon" height="50" width="60" src="./assets/nextjs.svg" />
@@ -21,7 +21,8 @@
   <img align="center" alt="MySQL icon" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
   <img align="center" alt="PostgreSQL icon" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
   <img align="center" alt="SQLite icon" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
-  <img align="center" alt="SQLite icon" height="50" width="60" src="/assets/expressjs.svg" />
+  <img align="center" alt="Express.js icon" height="50" width="60" src="/assets/expressjs.svg" />
+  <img align="center" alt="Fastify.js icon" height="50" width="60" src="/assets/fastifyjs.svg" />
 </div>
 
 <br/>
@@ -51,7 +52,7 @@
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
 
-  <a href="https://portfolio-dales10.vercel.app/" target="_blank">
+  <a href="https://portfolio-dariomatias-dev.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
 </div>
@@ -62,7 +63,7 @@
 
 <div align="center">
   <p align="centre">
-    <br>Contador de visitantes</br>
+    <b>Contador de visitantes</b>
   </p>
   <p align="center">
     <img align="center" src="https://profile-counter.glitch.me/{dariomatias-dev}/count.svg" />
