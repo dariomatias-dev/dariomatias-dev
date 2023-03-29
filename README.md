@@ -62,7 +62,7 @@
 
 <div align="center">
   <p align="centre">
-    **Contador de visitantes**
+    <br>Contador de visitantes</br>
   </p>
   <p align="center">
     <img align="center" src="https://profile-counter.glitch.me/{dariomatias-dev}/count.svg" />
