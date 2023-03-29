@@ -21,7 +21,8 @@
   <img align="center" alt="MySQL icon" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
   <img align="center" alt="PostgreSQL icon" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
   <img align="center" alt="SQLite icon" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
-  <img align="center" alt="SQLite icon" height="50" width="60" src="/assets/expressjs.svg" />
+  <img align="center" alt="Express.js icon" height="50" width="60" src="/assets/expressjs.svg" />
+  <img align="center" alt="Fastify.js icon" height="50" width="60" src="/assets/fastifyjs.svg" />
 </div>
 
 <br/>
