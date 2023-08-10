@@ -29,7 +29,7 @@
 <br/>
 <br/>
 
-![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=dariomatias-dev&hide_border=true&theme=react-dark)
+![Github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dariomatias-dev&hide_border=true&theme=react-dark)
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=dariomatias-dev&theme=darkhub&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
