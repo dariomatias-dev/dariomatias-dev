@@ -36,11 +36,11 @@
 </p>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/d%C3%A1rio-matias-dales-gamma-587785243/" target="_blank">
+  <a href="https://www.linkedin.com/in/dariomatias-dev/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
-  <a href="https://www.instagram.com/dario_delta10/?theme=dark" target="_blank">
+  <a href="https://www.instagram.com/dariomatias_dev/?theme=dark" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 
