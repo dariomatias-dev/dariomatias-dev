@@ -5,11 +5,10 @@
 <br/>
 
 <div align="center">
-  <img width="49%" height="200px" src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true" alt="Dário Matias GitHub stats." />
-  <img width="49%" height="200px" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
+  <img width="49%" height="190px" src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true" alt="Dário Matias GitHub stats." />
+  <img width="49%" height="190px" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
 </div>
 
-<br/>
 <br/>
 
 ### Minhas habilidades
@@ -35,7 +34,6 @@
 
 <div>
   <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="NextJS" />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
   <img src="https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
   <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
@@ -62,6 +60,7 @@
 
 #### Outros:
 <div>
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
   <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" alt="Pisma ORM" />  
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS" />
 </div>
@@ -74,7 +73,6 @@
   <img width="49%" height="220px" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Dário Matias GitHub stats." />
 </div>
 
-<br/>
 <br/>
 <br/>
 
