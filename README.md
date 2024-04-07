@@ -1,8 +1,30 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
-[![Typing SVG](<https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Oi!+Bem+vindo(a)+ao+meu+GitHub!+ヾ(＾∇＾);O+meu+nome+é+Dário+Matias+(+＾∇＾);Tenho+18+anos+de+idade+(^～^);Sou+um+desenvolvedor+Full+Stack+(„•+֊+•„)>)](https://git.io/typing-svg)
+<h1>
+  Olá! Eu sou Dário Matias
+</h1>
+
+<p>
+  Sou um desenvolvedor Full Stack atualmente cursando Análise e Desenvolvimento de Sistemas no IFPB, campus Esperança.
+</p>
+
+<p>
+  Tenho grande interesse em explorar e criar projetos em diversas áreas para expandir minha base de conhecimento e experiência, desde desenvolvimento Web, Backend, Mobile e outros.
+</p>
+
+<p>
+  Sinta-se à vontade para explorar meus repositórios e usá-los nos seus estudos, e entrar em contato, seja por ideias ou contribuições.
+</p>
+
+<p>
+  Estou aberto a novas oportunidades de aprendizado, crescimento e colaboração.
+</p>
 
 <br/>
+
+</hr>
+<br/>
+
 
 <div align="center">
   <img width="49%" height="190px" src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true" alt="Dário Matias GitHub stats." />
@@ -59,6 +81,7 @@
 <div>
 
 #### Outros:
+
 <div>
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
   <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" alt="Pisma ORM" />  
@@ -93,10 +116,6 @@
 
   <a href="https://wa.me/5583986404371">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-
-  <a href="https://twitter.com/matiasdario752" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
 </div>
 
