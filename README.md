@@ -5,11 +5,11 @@
 </h1>
 
 <p>
-  Sou um desenvolvedor Full Stack atualmente cursando Análise e Desenvolvimento de Sistemas no IFPB, campus Esperança.
+  Sou um desenvolvedor Full Stack, atualmente cursando Análise e Desenvolvimento de Sistemas no IFPB, campus Esperança.
 </p>
 
 <p>
-  Tenho grande interesse em explorar e criar projetos em diversas áreas para expandir minha base de conhecimento e experiência, desde desenvolvimento Web, Backend, Mobile e outros.
+  Tenho grande interesse em explorar e criar projetos em diversas áreas para expandir minha base de conhecimento e experiência, desde desenvolvimento Web, Backend, Mobile, entre outros.
 </p>
 
 <p>
@@ -23,8 +23,8 @@
 <br/>
 
 </hr>
-<br/>
 
+<br/>
 
 <div align="center">
   <img width="49%" height="190px" src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true" alt="Dário Matias GitHub stats." />
