@@ -27,7 +27,13 @@
 <br/>
 
 <div align="center">
-  <img width="49%" height="190px" src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true" alt="Dário Matias GitHub stats." />
+  <img
+    width="49%"
+    height="190px"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
+    alt="Dário Matias GitHub stats."
+  />
+  
   <img width="49%" height="190px" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
 </div>
 
