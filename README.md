@@ -5,11 +5,11 @@
 </h1>
 
 <p>
-  Sou um desenvolvedor Full Stack, atualmente cursando Análise e Desenvolvimento de Sistemas no IFPB, campus Esperança.
+  Trabalho com desenvolvimento mobile com Flutter, possuindo conhecimentos e habilidades em desevolvimento FrontEnd Web e Backend, explorando e criando projetos em diversas áreas para expandir minha base de saberes e experiências.
 </p>
 
 <p>
-  Tenho grande interesse em explorar e criar projetos em diversas áreas para expandir minha base de conhecimento e experiência, desde desenvolvimento Web, Backend, Mobile, entre outros.
+  Atualmente cursando Análise e Desenvolvimento de Sistemas no IFPB, campus Esperança.
 </p>
 
 <p>
