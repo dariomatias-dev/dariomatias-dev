@@ -123,6 +123,14 @@
   <a href="https://wa.me/5583986404371">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
+  
+  <a href="https://x.com/dariomatias_dev/" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-000000?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+
+  <a href="https://dariomatias-dev.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
 </div>
 
 <br/>
