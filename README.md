@@ -6,7 +6,7 @@
 <p align="center">
 Desenvolvedor Full Stack com foco em soluções digitais escaláveis, de fácil manutenção e alto padrão de qualidade, desempenho e usabilidade.
 <br/>
-Experiência em transformar requisitos complexos em sistemas eficientes e bem estruturados.
+Um bom sistema é simples, claro e fácil de manter.
 <br/>
 <i>Graduando em Análise e Desenvolvimento de Sistemas (IFPB).</i>
 </p>
@@ -25,8 +25,8 @@ Experiência em transformar requisitos complexos em sistemas eficientes e bem es
 <table>
   <tr>
     <td valign="top" width="50%">
-      <h3>Arquitetura Web Full-Stack</h3>
-      <p>Desenvolvimento de soluções Web completas, desde o Frontend com Next.js e React até o backend com Node.js e Go, focando em APIs robustas, seguras e escaláveis.</p>
+      <h3>Desenvolvimento Web Full-Stack</h3>
+      <p>Desenvolvimento de soluções Web completas, desde o Frontend com Next.js e React até o backend com Node.js ou Go, focando em APIs robustas, seguras e escaláveis.</p>
     </td>
     <td valign="top" width="50%">
       <h3>Desenvolvimento Mobile Multiplataforma</h3>
