@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  A good system is simple, clear, and easy to maintain.
+  "A good system is simple, clear, and easy to maintain."
   <br/>
   <i>Currently studying Systems Analysis and Development (IFPB).</i>
 </p>
@@ -64,7 +64,7 @@
 
 <br/>
 
-<div style="display: flex; justify-content: center; gap: 1%;">
+<div align="center">
   <img
     width="49%"
     src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
@@ -88,7 +88,7 @@
 
 ## GitHub Analytics
 
-<div style="display: flex; justify-content: center; gap: 1%;">
+<div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
   <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Language with Most Commits" />
 </div>

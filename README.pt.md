@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  Um bom sistema é simples, claro e fácil de manter.
+  "Um bom sistema é simples, claro e fácil de manter."
   <br/>
   <i>Atualmente, cursando Análise e Desenvolvimento de Sistemas (IFPB).</i>
 </p>
@@ -64,7 +64,7 @@
 
 <br/>
 
-<div style="display: flex; justify-content: center; gap: 1%;">
+<div align="center">
   <img
     width="49%"
     src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
@@ -88,7 +88,7 @@
 
 ## Análises do GitHub
 
-<div style="display: flex; justify-content: center; gap: 1%;">
+<div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas" />
   <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Linguagem com Mais Commits" />
 </div>
