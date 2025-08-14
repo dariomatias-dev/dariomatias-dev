@@ -12,10 +12,18 @@ Um bom sistema é simples, claro e fácil de manter.
 </p>
 
 <div align="center">
-<a href="https://dariomatias-dev.com/" target="_blank"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="mailto:matiasdario75@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/dariomatias-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://www.instagram.com/dariomatias_dev/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://dariomatias-dev.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfólio-FFFFFF?style=for-the-badge&logo=vercel&logoColor=white&color=000000" />
+  </a>
+  <a href="mailto:matiasdario75@gmail.com">
+    <img src="https://img.shields.io/badge/Email-FFFFFF?style=for-the-badge&logo=gmail&logoColor=white&color=1DA1F2" />
+  </a>
+  <a href="https://www.linkedin.com/in/dariomatias-dev/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=white&color=1DA1F2" />
+  </a>
+  <a href="https://www.instagram.com/dariomatias_dev/" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-FFFFFF?style=for-the-badge&logo=Instagram&logoColor=white&color=000000" />
+  </a>
 </div>
 
 <br/>
