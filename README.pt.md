@@ -1,19 +1,23 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
 <p align="right" style="font-size:0.8em; color:gray;">
-PT | <a href="README.en.md">EN</a>
+  PT | <a href="README.en.md">EN</a>
 </p>
 
 <h1 align="center">Dário Matias</h1>
 <h3 align="center">Desenvolvedor de Software | Full Stack & Mobile</h3>
 
-<p align="center">
-Atuo no desenvolvimento de soluções completas, escaláveis e de fácil manutenção, com foco em qualidade, desempenho e usabilidade.
-<br/>
-Um bom sistema é simples, claro e fácil de manter.
-<br/>
-<i>Atualmente, cursando Análise e Desenvolvimento de Sistemas (IFPB).</i>
+<p align="center" style="max-width: 800px; margin: auto;">
+  Atuo no desenvolvimento de soluções completas, escaláveis e de fácil manutenção, com foco em qualidade, desempenho e usabilidade.
 </p>
+
+<p align="center">
+  Um bom sistema é simples, claro e fácil de manter.
+  <br/>
+  <i>Atualmente, cursando Análise e Desenvolvimento de Sistemas (IFPB).</i>
+</p>
+
+<br/>
 
 <div align="center">
   <a href="https://dariomatias-dev.com/" target="_blank">
@@ -60,14 +64,14 @@ Um bom sistema é simples, claro e fácil de manter.
 
 <br/>
 
-<div align="center">
+<div style="display: flex; justify-content: center; gap: 1%;">
   <img
-    width="49%"
+    width="50%"
     src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
     alt="Dário Matias GitHub stats."
   />
-  
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
+
+  <img width="50%" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
 </div>
 
 ## Tecnologias e Ferramentas
@@ -84,9 +88,9 @@ Um bom sistema é simples, claro e fácil de manter.
 
 ## Análises do GitHub
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas" />
-  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Linguagem com Mais Commits" />
+<div style="display: flex; justify-content: center; gap: 1%;">
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas" />
+  <img width="50%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Linguagem com Mais Commits" />
 </div>
 
 <br/>

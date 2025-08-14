@@ -1,19 +1,23 @@
-2<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
 <p align="right" style="font-size:0.8em; color:gray;">
-<a href="README.pt.md">PT</a> | EN
+  <a href="README.pt.md">PT</a> | EN
 </p>
 
 <h1 align="center">Dário Matias</h1>
 <h3 align="center">Software Developer | Full Stack & Mobile</h3>
 
-<p align="center">
-I work on developing complete, scalable solutions that are easy to maintain, with a focus on quality, performance, and usability.
-<br/>
-A good system is simple, clear, and easy to maintain.
-<br/>
-<i>Currently studying Systems Analysis and Development (IFPB).</i>
+<p align="center" style="max-width: 800px; margin: auto;">
+  I work on developing complete, scalable solutions that are easy to maintain, with a focus on quality, performance, and usability.
 </p>
+
+<p align="center">
+  A good system is simple, clear, and easy to maintain.
+  <br/>
+  <i>Currently studying Systems Analysis and Development (IFPB).</i>
+</p>
+
+<br/>
 
 <div align="center">
   <a href="https://dariomatias-dev.com/" target="_blank">
@@ -60,14 +64,14 @@ A good system is simple, clear, and easy to maintain.
 
 <br/>
 
-<div align="center">
+<div style="display: flex; justify-content: center; gap: 1%;">
   <img
-    width="49%"
+    width="50%"
     src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
     alt="Dário Matias GitHub stats."
   />
   
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
+  <img width="50%" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
 </div>
 
 ## Technologies & Tools
@@ -84,9 +88,9 @@ A good system is simple, clear, and easy to maintain.
 
 ## GitHub Analytics
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
-  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Language with Most Commits" />
+<div style="display: flex; justify-content: center; gap: 1%;">
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
+  <img width="50%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Language with Most Commits" />
 </div>
 
 <br/>
