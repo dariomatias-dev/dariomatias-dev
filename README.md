@@ -1,18 +1,18 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+2<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
 <p align="right" style="font-size:0.8em; color:gray;">
 <a href="README.pt.md">PT</a> | EN
 </p>
 
 <h1 align="center">Dário Matias</h1>
-<h3 align="center">Software Developer | Full Stack & Mobile Specialist</h3>
+<h3 align="center">Software Developer | Full Stack & Mobile</h3>
 
 <p align="center">
-Full Stack Developer focused on scalable digital solutions that are easy to maintain and follow high standards of quality, performance, and usability.
+I work on developing complete, scalable solutions that are easy to maintain, with a focus on quality, performance, and usability.
 <br/>
 A good system is simple, clear, and easy to maintain.
 <br/>
-<i>Bachelor's student in Systems Analysis and Development (IFPB).</i>
+<i>Currently studying Systems Analysis and Development (IFPB).</i>
 </p>
 
 <div align="center">

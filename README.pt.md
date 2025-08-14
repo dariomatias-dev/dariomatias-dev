@@ -5,14 +5,14 @@ PT | <a href="README.en.md">EN</a>
 </p>
 
 <h1 align="center">Dário Matias</h1>
-<h3 align="center">Desenvolvedor de Software | Especialista Full Stack & Mobile</h3>
+<h3 align="center">Desenvolvedor de Software | Full Stack & Mobile</h3>
 
 <p align="center">
-Desenvolvedor Full Stack com foco em soluções digitais escaláveis, de fácil manutenção e alto padrão de qualidade, desempenho e usabilidade.
+Atuo no desenvolvimento de soluções completas, escaláveis e de fácil manutenção, com foco em qualidade, desempenho e usabilidade.
 <br/>
 Um bom sistema é simples, claro e fácil de manter.
 <br/>
-<i>Graduando em Análise e Desenvolvimento de Sistemas (IFPB).</i>
+<i>Atualmente, cursando Análise e Desenvolvimento de Sistemas (IFPB).</i>
 </p>
 
 <div align="center">
