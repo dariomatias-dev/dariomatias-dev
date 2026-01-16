@@ -65,13 +65,8 @@
 <br/>
 
 <div align="center">
-  <img
-    width="49%"
-    src="https://github-readme-streak-stats.herokuapp.com/?user=dariomatias-dev&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
-    alt="Dário Matias GitHub stats."
-  />
-
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dariomatias-dev&hide_border=true&count_private=true&show_icons=true&theme=tokyonight" alt="Dário Matias GitHub stats." />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=dariomatias-dev&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=dariomatias-dev&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
 </div>
 
 ## Tecnologias e Ferramentas
@@ -89,7 +84,7 @@
 ## Análises do GitHub
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Linguagens Mais Usadas" />
   <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Linguagem com Mais Commits" />
 </div>
 
