@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header" alt="" />
 
 <p align="right">
-  <sub><a href="README.pt-BR.md">PT-BR</a> | EN</sub>
+  <sub>EN | <a href="README.es.md">ES</a> | <a href="README.pt-BR.md">PT-BR</a></sub>
 </p>
 
 <h1 align="center">Dário Matias</h1>
