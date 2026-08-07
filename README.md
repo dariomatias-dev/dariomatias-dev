@@ -1,36 +1,34 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header" alt="" />
 
-<p align="right" style="font-size:0.8em; color:gray;">
-  <a href="README.pt.md">PT</a> | EN
+<p align="right">
+  <sub><a href="README.pt.md">PT</a> | EN</sub>
 </p>
 
 <h1 align="center">Dário Matias</h1>
-<h3 align="center">Software Developer | Full Stack & Mobile</h3>
+<h3 align="center">Software Developer | Mobile, Backend & Web</h3>
 
-<p align="center" style="max-width: 800px; margin: auto;">
-  I work on developing complete, scalable solutions that are easy to maintain, with a focus on quality, performance, and usability.
+<p align="center">
+  I work from architecture to system maintenance, mainly with Flutter, Go, Next.js, and TypeScript, focusing on scalable, performant, and sustainable solutions.
 </p>
 
 <p align="center">
-  "A good system is simple, clear, and easy to maintain."
-  <br/>
-  <i>Currently studying Systems Analysis and Development (IFPB).</i>
+  Undergraduate student in Systems Analysis and Development (IFPB).
 </p>
 
 <br/>
 
 <div align="center">
   <a href="https://dariomatias-dev.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=vercel&logoColor=white&color=000000" />
+    <img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Portfolio" />
   </a>
-  <a href="mailto:matiasdario75@gmail.com">
-    <img src="https://img.shields.io/badge/Email-FFFFFF?style=for-the-badge&logo=gmail&logoColor=white&color=1DA1F2" />
+  <a href="mailto:dariomatias.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-FFFFFF?style=for-the-badge&logo=gmail&logoColor=white&color=1DA1F2" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/dariomatias-dev/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=white&color=1DA1F2" />
+    <img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=white&color=1DA1F2" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/dariomatias_dev/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-FFFFFF?style=for-the-badge&logo=Instagram&logoColor=white&color=000000" />
+    <img src="https://img.shields.io/badge/-Instagram-FFFFFF?style=for-the-badge&logo=Instagram&logoColor=white&color=000000" alt="Instagram" />
   </a>
 </div>
 
@@ -64,10 +62,26 @@
 
 <br/>
 
+## Featured Projects
+
+| **Project**                                                                     | **Description**                                                                                                                                                                          | **Stack**                    |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| [flutter_guide_app](https://github.com/dariomatias-dev/flutter_guide_app)       | Educational app that helps developers learn Flutter through practical examples. Available on [Google Play](https://play.google.com/store/apps/details?id=com.dariomatias.flutter_guide). | Flutter, Dart                |
+| [my_commerce](https://github.com/dariomatias-dev/my_commerce)                   | Complete, scalable SaaS solution for small business owners to create and manage their own online stores.                                                                                 | Next.js, Node.js, PostgreSQL |
+| [go-pkg](https://github.com/dariomatias-dev/go-pkg)                             | Package discovery and exploration platform for the Go ecosystem, with package comparison and AI-powered insights.                                                                        | Go, Next.js                  |
+| [academic_planner_app](https://github.com/dariomatias-dev/academic_planner_app) | Flutter reference project using MVVM, Clean Architecture, and Feature-First organization for medium to large applications.                                                               | Flutter, Dart                |
+| [scroll_infinity](https://github.com/dariomatias-dev/scroll_infinity)           | Flutter package providing a widget with infinite scrolling and paginated loading. Published on [pub.dev](https://pub.dev/packages/scroll_infinity).                                      | Flutter, Dart                |
+
+<br/>
+
+## Activity
+
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=dariomatias-dev&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=dariomatias-dev&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=dariomatias-dev&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub streak statistics" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=dariomatias-dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub general statistics" />
 </div>
+
+<br/>
 
 ## Technologies & Tools
 
@@ -85,12 +99,12 @@
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=dariomatias-dev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
-  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Language with Most Commits" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dariomatias-dev&theme=react" alt="Language with Most Commits" />
 </div>
 
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dariomatias-dev&hide_border=true&theme=react-dark" alt="Github activity graph" />
-<img width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dariomatias-dev&theme=react" alt="Github profile details" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dariomatias-dev&hide_border=true&theme=react-dark" alt="GitHub activity graph" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dariomatias-dev&theme=react" alt="GitHub profile details" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer" alt="" />
