@@ -118,9 +118,10 @@ Plataforma de descoberta e exploração do ecossistema Go: busca de pacotes, ins
 <p>
   <a href="https://github.com/dariomatias-dev/go-pkg" target="_blank"><img src="https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github&logoColor=white" alt="Repositório" /></a>
   <a href="https://go-pkg-dev.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Demonstração-000000?style=flat-square&logo=vercel&logoColor=white" alt="Demonstração" /></a>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
 </p>
 
 ### MacDocs
