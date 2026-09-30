@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header" alt="" />
+<img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/banner-header.svg" alt="" />
 
 <p align="right">
   <sub><a href="README.md">EN</a> | ES | <a href="README.pt-BR.md">PT-BR</a></sub>
@@ -48,8 +48,13 @@
 <br/>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/streak?username=dariomatias-dev&theme=tokyonight&hide_border=true&count_private=true&locale=es" alt="Racha de contribuciones en GitHub" />
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=dariomatias-dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=es" alt="Estadísticas generales de GitHub" />
+  <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/es/profile-stats.svg" alt="Estadísticas de GitHub y rachas de contribuciones" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/es/contributions.svg" alt="Actividad de contribuciones del último año" />
 </div>
 
 <br/>
@@ -58,9 +63,9 @@
 
 | Área | Lo que hago |
 | --- | --- |
-| **Mobile** | Aplicaciones Flutter para Android, iOS, web y escritorio, con organización feature-first, MVVM, Riverpod, navegación tipada, persistencia local con Drift y SQLite, internacionalización e integración con APIs. Publicación en Google Play. |
-| **Backend** | APIs HTTP y servicios en Go, Node.js y Java con Spring Boot, modelado de datos relacionales con PostgreSQL, autenticación e integración con servicios externos. |
-| **Web** | Aplicaciones y sitios de producto con Next.js, React, TypeScript y Tailwind CSS, cubriendo rutas, formularios, autenticación y consumo de APIs propias. |
+| **Mobile** | Aplicaciones Flutter para Android, iOS, web y escritorio, con organización feature-first, MVVM y persistencia local. Publicación en Google Play. |
+| **Backend** | APIs HTTP y servicios en Go, Node.js y Java, con modelado relacional, autenticación e integración con servicios externos. |
+| **Web** | Aplicaciones y sitios de producto con Next.js y TypeScript, cubriendo rutas, formularios, autenticación y consumo de APIs propias. |
 | **Open Source** | Paquetes Flutter y Go publicados, con API pública documentada, ejemplos y versionado. |
 
 <br/>
@@ -71,7 +76,7 @@
 
 Aplicación Android para practicar SQL en bases de datos SQLite locales, totalmente sin conexión: catálogo de esquemas listos con datos iniciales, editor con resaltado de sintaxis, consola de resultados e inspector visual de esquema.
 
-**Demuestra:** un producto offline-first con editor de código integrado, ejecución de consultas SQLite y reporte de errores, disposición de área de trabajo configurable e interfaz totalmente localizada en tres idiomas. En beta cerrada, con sitio de producto propio.
+**Demuestra:** un producto offline-first con editor de código integrado, ejecución de consultas SQLite y reporte de errores, disposición de área de trabajo configurable e interfaz totalmente localizada en tres idiomas. En beta cerrada.
 
 <p>
   <a href="https://github.com/dariomatias-dev/sql_studio_app" target="_blank"><img src="https://img.shields.io/badge/Repositorio-181717?style=flat-square&logo=github&logoColor=white" alt="Repositorio" /></a>
@@ -84,7 +89,7 @@ Aplicación Android para practicar SQL en bases de datos SQLite locales, totalme
 
 ### Flutter Guide
 
-Aplicación educativa para Android que enseña Flutter mediante ejemplos prácticos y ejecutables. Publicada en Google Play, con sitio de producto propio.
+Aplicación educativa para Android que enseña Flutter mediante ejemplos prácticos y ejecutables. Publicada en Google Play.
 
 **Demuestra:** una aplicación móvil completa llevada hasta una tienda pública, desde la estructura de contenido y la navegación hasta la build de release, la ficha de la tienda y la distribución.
 
@@ -154,27 +159,6 @@ SaaS que permite a pequeños comerciantes crear y gestionar sus propias tiendas 
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
-<div align="center">
-  <a href="https://github.com/dariomatias-dev/sql_studio_app" target="_blank">
-    <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=dariomatias-dev&repo=sql_studio_app&theme=tokyonight&hide_border=true&locale=es" alt="Tarjeta del repositorio sql_studio_app" />
-  </a>
-  <a href="https://github.com/dariomatias-dev/flutter_guide_app" target="_blank">
-    <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=dariomatias-dev&repo=flutter_guide_app&theme=tokyonight&hide_border=true&locale=es" alt="Tarjeta del repositorio flutter_guide_app" />
-  </a>
-  <a href="https://github.com/dariomatias-dev/music_app" target="_blank">
-    <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=dariomatias-dev&repo=music_app&theme=tokyonight&hide_border=true&locale=es" alt="Tarjeta del repositorio music_app" />
-  </a>
-  <a href="https://github.com/dariomatias-dev/go-pkg" target="_blank">
-    <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=dariomatias-dev&repo=go-pkg&theme=tokyonight&hide_border=true&locale=es" alt="Tarjeta del repositorio go-pkg" />
-  </a>
-  <a href="https://github.com/dariomatias-dev/mac-docs" target="_blank">
-    <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=dariomatias-dev&repo=mac-docs&theme=tokyonight&hide_border=true&locale=es" alt="Tarjeta del repositorio mac-docs" />
-  </a>
-  <a href="https://github.com/dariomatias-dev/my_commerce" target="_blank">
-    <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=dariomatias-dev&repo=my_commerce&theme=tokyonight&hide_border=true&locale=es" alt="Tarjeta del repositorio my_commerce" />
-  </a>
-</div>
-
 <br/>
 
 ## Paquetes Publicados
@@ -205,39 +189,20 @@ Repositorios escritos para documentar un enfoque, no solo para entregar una func
 
 ## Tecnologías
 
-**Principales**
-
-<p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-</p>
-
-**También utilizo**
-
 | Categoría | Tecnologías |
 | --- | --- |
-| **Mobile** | Riverpod, go_router, Drift, sqflite, just_audio, intl, Firebase |
-| **Web** | React, Tailwind CSS, shadcn/ui, MDX |
-| **Backend** | Node.js, Express, NestJS, Fastify, Java, Spring Boot |
+| **Lenguajes** | Dart, Go, TypeScript, Java |
+| **Mobile** | Flutter, Riverpod, go_router, Drift, sqflite, just_audio, intl, Firebase |
+| **Web** | Next.js, React, Tailwind CSS, shadcn/ui, MDX |
+| **Backend** | Node.js, Express, NestJS, Fastify, Spring Boot |
 | **Datos** | PostgreSQL, MySQL, SQLite, Prisma |
 | **Infraestructura y herramientas** | Docker, Git, GitHub Actions, Linux, pnpm |
 
 <br/>
 
-## Prácticas
-
-- Clean Architecture y MVVM
-- Organización de proyecto feature-first
-- Design patterns y Clean Code
-- APIs REST
-- Pruebas automatizadas, incluidas de extremo a extremo y de accesibilidad
-- Docker y CI/CD
-- Conventional Commits, versionado semántico y releases automatizados
-- Internacionalización desde la primera pantalla
-- Revisión de código
+<div align="center">
+  <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/es/languages.svg" alt="Lenguajes más usados por tamaño de código" />
+</div>
 
 <br/>
 
@@ -245,15 +210,12 @@ Repositorios escritos para documentar un enfoque, no solo para entregar una func
 
 <br/>
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dariomatias-dev&theme=react" alt="Detalles del perfil de GitHub" />
-
-<br/>
-
 <div align="center">
   <a href="https://dariomatias-dev.com/" target="_blank">Portafolio</a> ·
+  <a href="mailto:dariomatias.dev@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/dariomatias-dev/" target="_blank">LinkedIn</a> ·
-  <a href="https://github.com/dariomatias-dev" target="_blank">GitHub</a> ·
-  <a href="mailto:dariomatias.dev@gmail.com">Email</a>
+  <a href="https://pub.dev/publishers/dariomatias-dev.com/packages" target="_blank">pub.dev</a> ·
+  <a href="https://www.instagram.com/dariomatias_dev/" target="_blank">Instagram</a>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer" alt="" />
+<img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/banner-footer.svg" alt="" />
