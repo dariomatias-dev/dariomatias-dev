@@ -37,14 +37,13 @@ const LOCALES = {
     currentStreak: "Current Streak",
     longestStreak: "Longest Streak",
     noStreak: "No active streak",
-    lastYear: "Last 12 months",
-    activeDays: "Active days",
-    bestDay: "Best day",
+    issues: "Issues",
+    repositories: "Repositories",
+    activeDaysOf: (a, b) => `Active days: ${a} of ${b}`,
     commits: "Commits",
     prs: "Pull Requests",
     reviews: "Reviews",
     stars: "Stars",
-    followers: "Followers",
     activityTitle: "Contribution Activity",
     activitySub: (n) => `${n} contributions in the last year`,
     activityAlt: `${USER} contribution activity`,
@@ -68,14 +67,13 @@ const LOCALES = {
     currentStreak: "Racha actual",
     longestStreak: "Racha más larga",
     noStreak: "Sin racha activa",
-    lastYear: "Últimos 12 meses",
-    activeDays: "Días activos",
-    bestDay: "Mejor día",
+    issues: "Issues",
+    repositories: "Repositorios",
+    activeDaysOf: (a, b) => `Días activos: ${a} de ${b}`,
     commits: "Commits",
     prs: "Pull Requests",
     reviews: "Revisiones",
     stars: "Estrellas",
-    followers: "Seguidores",
     activityTitle: "Actividad de contribuciones",
     activitySub: (n) => `${n} contribuciones en el último año`,
     activityAlt: `Actividad de contribuciones de ${USER}`,
@@ -99,14 +97,13 @@ const LOCALES = {
     currentStreak: "Sequência atual",
     longestStreak: "Maior sequência",
     noStreak: "Sem sequência ativa",
-    lastYear: "Últimos 12 meses",
-    activeDays: "Dias ativos",
-    bestDay: "Melhor dia",
+    issues: "Issues",
+    repositories: "Repositórios",
+    activeDaysOf: (a, b) => `Dias ativos: ${a} de ${b}`,
     commits: "Commits",
     prs: "Pull Requests",
     reviews: "Revisões",
     stars: "Estrelas",
-    followers: "Seguidores",
     activityTitle: "Atividade de contribuições",
     activitySub: (n) => `${n} contribuições no último ano`,
     activityAlt: `Atividade de contribuições de ${USER}`,
@@ -166,7 +163,7 @@ async function collectRepos() {
 
 async function collect() {
   const base = await gql(
-    `query($u:String!){ user(login:$u){ createdAt followers{ totalCount }
+    `query($u:String!){ user(login:$u){ createdAt
       pullRequests{ totalCount } issues{ totalCount }
       repositoriesContributedTo(first:1, contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){ totalCount } } }`,
     { u: USER },
@@ -209,10 +206,10 @@ async function collect() {
     days: uniq,
     commits,
     reviews,
-    followers: user.followers.totalCount,
     prs: user.pullRequests.totalCount,
     issues: user.issues.totalCount,
     contributedTo: user.repositoriesContributedTo.totalCount,
+    repositories: repos.length,
     stars: repos.reduce((s, r) => s + r.stargazerCount, 0),
     langs: [...langs].map(([name, v]) => ({ name, ...v })).sort((a, b) => b.size - a.size),
   };
@@ -240,8 +237,7 @@ function streaks(days) {
   const lastYear = days.filter(([t]) => t > today - 365 * dayMs);
   const lastYearTotal = lastYear.reduce((s, [, n]) => s + n, 0);
   const activeDays = lastYear.filter(([, n]) => n > 0).length;
-  const bestDay = days.reduce((b, d) => (d[1] > b[1] ? d : b), [0, 0]);
-  return { total, first, today, cur, best, lastYearTotal, activeDays, bestDay };
+  return { total, first, today, cur, best, lastYearTotal, activeDays };
 }
 
 const svg = (h, body, title) => `<svg xmlns="http://www.w3.org/2000/svg" lang="${L.locale}" width="${W}" height="${h}" viewBox="0 0 ${W} ${h}" role="img" aria-label="${esc(title)}">
@@ -272,15 +268,14 @@ ${ring ? `<circle cx="${x}" cy="72" r="42" fill="none" stroke="${theme.accent}" 
 <text x="${x}" y="156" text-anchor="middle" font-size="11" fill="${theme.label}">${sub}</text>
 </g>`;
 
+  // Everything in this row is an all-time total, like the three figures above it.
   const stats = [
-    [L.lastYear, fmt(s.lastYearTotal)],
-    [L.activeDays, fmt(s.activeDays)],
-    [L.bestDay, fmt(s.bestDay[1])],
     [L.commits, fmt(d.commits)],
     [L.prs, fmt(d.prs)],
+    [L.issues, fmt(d.issues)],
     [L.reviews, fmt(d.reviews)],
+    [L.repositories, fmt(d.repositories)],
     [L.stars, fmt(d.stars)],
-    [L.followers, fmt(d.followers)],
   ];
   const step = (W - 56) / stats.length;
   const statCol = ([k, v], i) => `
@@ -354,7 +349,7 @@ function heatmapCard(s, days) {
   const top = (a) => a.indexOf(Math.max(...a));
   const dowName = new Date(Date.UTC(2024, 0, 7 + top(byDow))).toLocaleDateString(L.locale, { weekday: "long", timeZone: "UTC" });
   const monthName = new Date(Date.UTC(2024, top(byMonth), 1)).toLocaleDateString(L.locale, { month: "long", timeZone: "UTC" });
-  const summary = `<text x="28" y="${H - 20}" font-size="11" fill="${theme.label}">${L.mostDay}: ${dowName} · ${L.mostMonth}: ${monthName}</text>`;
+  const summary = `<text x="28" y="${H - 20}" font-size="11" fill="${theme.label}">${L.activeDaysOf(fmt(s.activeDays), 365)} · ${L.mostDay}: ${dowName} · ${L.mostMonth}: ${monthName}</text>`;
 
   const weekly = Array.from({ length: 53 }, (_, w) => {
     let sum = 0;
