@@ -169,6 +169,10 @@ SaaS que permite a pequeños comerciantes crear y gestionar sus propias tiendas 
 | [flutter_syntax_highlighter](https://github.com/dariomatias-dev/flutter_syntax_highlighter) | Widget de resaltado de sintaxis para código Dart y Flutter, con temas claro y oscuro, numeración de líneas y selección. | [pub.dev](https://pub.dev/packages/flutter_syntax_highlighter) |
 | [go-validators](https://github.com/dariomatias-dev/go-validators) | Validadores componibles para aplicaciones Go. | [pkg.go.dev](https://pkg.go.dev/github.com/dariomatias-dev/go-validators) |
 
+<div align="center">
+  <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/es/packages.svg" alt="Paquetes publicados: última versión, puntos pub, plataformas y fecha de publicación" />
+</div>
+
 <br/>
 
 ## Proyectos de Referencia
@@ -192,7 +196,7 @@ Repositorios escritos para documentar un enfoque, no solo para entregar una func
 | Categoría | Tecnologías |
 | --- | --- |
 | **Lenguajes** | Dart, Go, TypeScript, Java |
-| **Mobile** | Flutter, Riverpod, go_router, Drift, sqflite, just_audio, intl, Firebase |
+| **Mobile** | Flutter, Android, iOS, Firebase |
 | **Web** | Next.js, React, Tailwind CSS, shadcn/ui, MDX |
 | **Backend** | Node.js, Express, NestJS, Fastify, Spring Boot |
 | **Datos** | PostgreSQL, MySQL, SQLite, Prisma |
@@ -217,5 +221,7 @@ Repositorios escritos para documentar un enfoque, no solo para entregar una func
   <a href="https://pub.dev/publishers/dariomatias-dev.com/packages" target="_blank">pub.dev</a> ·
   <a href="https://www.instagram.com/dariomatias_dev/" target="_blank">Instagram</a>
 </div>
+
+<br/>
 
 <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/banner-footer.svg" alt="" />

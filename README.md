@@ -169,6 +169,10 @@ SaaS that lets small business owners create and manage their own online stores, 
 | [flutter_syntax_highlighter](https://github.com/dariomatias-dev/flutter_syntax_highlighter) | Syntax highlighting widget for Dart and Flutter code, with light and dark themes, line numbers, and selection. | [pub.dev](https://pub.dev/packages/flutter_syntax_highlighter) |
 | [go-validators](https://github.com/dariomatias-dev/go-validators) | Composable validators for Go applications. | [pkg.go.dev](https://pkg.go.dev/github.com/dariomatias-dev/go-validators) |
 
+<div align="center">
+  <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/en/packages.svg" alt="Published packages: latest version, pub points, platforms, and release date" />
+</div>
+
 <br/>
 
 ## Reference Projects
@@ -192,7 +196,7 @@ Repositories written to document an approach, not only to ship a feature.
 | Category | Technologies |
 | --- | --- |
 | **Languages** | Dart, Go, TypeScript, Java |
-| **Mobile** | Flutter, Riverpod, go_router, Drift, sqflite, just_audio, intl, Firebase |
+| **Mobile** | Flutter, Android, iOS, Firebase |
 | **Web** | Next.js, React, Tailwind CSS, shadcn/ui, MDX |
 | **Backend** | Node.js, Express, NestJS, Fastify, Spring Boot |
 | **Data** | PostgreSQL, MySQL, SQLite, Prisma |
@@ -217,5 +221,7 @@ Repositories written to document an approach, not only to ship a feature.
   <a href="https://pub.dev/publishers/dariomatias-dev.com/packages" target="_blank">pub.dev</a> ·
   <a href="https://www.instagram.com/dariomatias_dev/" target="_blank">Instagram</a>
 </div>
+
+<br/>
 
 <img width="100%" src="https://dariomatias-dev.github.io/dariomatias-dev/banner-footer.svg" alt="" />
