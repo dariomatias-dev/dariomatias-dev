@@ -37,12 +37,10 @@ const LOCALES = {
     currentStreak: "Current Streak",
     longestStreak: "Longest Streak",
     noStreak: "No active streak",
-    issues: "Issues",
     repositories: "Repositories",
     activeDaysOf: (a, b) => `Active days: ${a} of ${b}`,
     commits: "Commits",
     prs: "Pull Requests",
-    reviews: "Reviews",
     stars: "Stars",
     activityTitle: "Contribution Activity",
     activitySub: (n) => `${n} contributions in the last year`,
@@ -58,6 +56,14 @@ const LOCALES = {
     langsSub: "by code size, own repositories, excluding markup and generated code",
     langsAlt: `${USER} most used languages`,
     other: "Other",
+    packagesTitle: "Published Packages",
+    packagesSub: "live from the package registries",
+    packagesAlt: `${USER} published packages`,
+    colPackage: "Package",
+    colVersion: "Latest version",
+    colPoints: "Pub points",
+    colPlatforms: "Platforms",
+    colReleased: "Released",
   },
   es: {
     locale: "es-ES",
@@ -67,12 +73,10 @@ const LOCALES = {
     currentStreak: "Racha actual",
     longestStreak: "Racha más larga",
     noStreak: "Sin racha activa",
-    issues: "Issues",
     repositories: "Repositorios",
     activeDaysOf: (a, b) => `Días activos: ${a} de ${b}`,
     commits: "Commits",
     prs: "Pull Requests",
-    reviews: "Revisiones",
     stars: "Estrellas",
     activityTitle: "Actividad de contribuciones",
     activitySub: (n) => `${n} contribuciones en el último año`,
@@ -88,6 +92,14 @@ const LOCALES = {
     langsSub: "por tamaño de código, repositorios propios, sin marcado ni código generado",
     langsAlt: `Lenguajes más usados de ${USER}`,
     other: "Otros",
+    packagesTitle: "Paquetes publicados",
+    packagesSub: "datos en vivo de los registros de paquetes",
+    packagesAlt: `Paquetes publicados de ${USER}`,
+    colPackage: "Paquete",
+    colVersion: "Última versión",
+    colPoints: "Puntos pub",
+    colPlatforms: "Plataformas",
+    colReleased: "Publicada",
   },
   "pt-BR": {
     locale: "pt-BR",
@@ -97,12 +109,10 @@ const LOCALES = {
     currentStreak: "Sequência atual",
     longestStreak: "Maior sequência",
     noStreak: "Sem sequência ativa",
-    issues: "Issues",
     repositories: "Repositórios",
     activeDaysOf: (a, b) => `Dias ativos: ${a} de ${b}`,
     commits: "Commits",
     prs: "Pull Requests",
-    reviews: "Revisões",
     stars: "Estrelas",
     activityTitle: "Atividade de contribuições",
     activitySub: (n) => `${n} contribuições no último ano`,
@@ -118,6 +128,14 @@ const LOCALES = {
     langsSub: "por tamanho de código, repositórios próprios, sem marcação e código gerado",
     langsAlt: `Linguagens mais usadas de ${USER}`,
     other: "Outras",
+    packagesTitle: "Pacotes publicados",
+    packagesSub: "dados ao vivo dos registros de pacotes",
+    packagesAlt: `Pacotes publicados de ${USER}`,
+    colPackage: "Pacote",
+    colVersion: "Última versão",
+    colPoints: "Pontos pub",
+    colPlatforms: "Plataformas",
+    colReleased: "Publicado",
   },
 };
 let L = LOCALES.en; // locale being rendered; set per iteration at the bottom
@@ -164,7 +182,7 @@ async function collectRepos() {
 async function collect() {
   const base = await gql(
     `query($u:String!){ user(login:$u){ createdAt
-      pullRequests{ totalCount } issues{ totalCount }
+      pullRequests{ totalCount }
       repositoriesContributedTo(first:1, contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){ totalCount } } }`,
     { u: USER },
   );
@@ -174,17 +192,15 @@ async function collect() {
 
   const days = [];
   let commits = 0;
-  let reviews = 0;
   for (let y = startYear; y <= nowYear; y++) {
     const d = await gql(
       `query($u:String!,$f:DateTime!,$t:DateTime!){ user(login:$u){ contributionsCollection(from:$f,to:$t){
-        totalCommitContributions restrictedContributionsCount totalPullRequestReviewContributions
+        totalCommitContributions restrictedContributionsCount
         contributionCalendar{ weeks{ contributionDays{ date contributionCount } } } } } }`,
       { u: USER, f: `${y}-01-01T00:00:00Z`, t: `${y}-12-31T23:59:59Z` },
     );
     const c = d.user.contributionsCollection;
     commits += c.totalCommitContributions + c.restrictedContributionsCount;
-    reviews += c.totalPullRequestReviewContributions;
     for (const w of c.contributionCalendar.weeks)
       for (const day of w.contributionDays) days.push([toDay(day.date), day.contributionCount]);
   }
@@ -205,9 +221,7 @@ async function collect() {
   return {
     days: uniq,
     commits,
-    reviews,
     prs: user.pullRequests.totalCount,
-    issues: user.issues.totalCount,
     contributedTo: user.repositoriesContributedTo.totalCount,
     repositories: repos.length,
     stars: repos.reduce((s, r) => s + r.stargazerCount, 0),
@@ -272,8 +286,6 @@ ${ring ? `<circle cx="${x}" cy="72" r="42" fill="none" stroke="${theme.accent}" 
   const stats = [
     [L.commits, fmt(d.commits)],
     [L.prs, fmt(d.prs)],
-    [L.issues, fmt(d.issues)],
-    [L.reviews, fmt(d.reviews)],
     [L.repositories, fmt(d.repositories)],
     [L.stars, fmt(d.stars)],
   ];
@@ -460,7 +472,83 @@ function banner(flip) {
 <g${flip ? ` transform="translate(0 ${BH}) scale(1 -1)"` : ""}>${paths}</g></svg>`;
 }
 
+const PACKAGES = [
+  { name: "scroll_infinity", registry: "pub.dev" },
+  { name: "flutter_syntax_highlighter", registry: "pub.dev" },
+  { name: "go-validators", registry: "pkg.go.dev", module: "github.com/dariomatias-dev/go-validators" },
+];
+
+async function getJson(url) {
+  try {
+    const res = await fetch(url);
+    return res.ok ? await res.json() : null;
+  } catch {
+    return null;
+  }
+}
+
+async function collectPackages() {
+  return Promise.all(
+    PACKAGES.map(async (pkg) => {
+      if (pkg.registry === "pub.dev") {
+        const [info, score] = await Promise.all([
+          getJson(`https://pub.dev/api/packages/${pkg.name}`),
+          getJson(`https://pub.dev/api/packages/${pkg.name}/score`),
+        ]);
+        return {
+          ...pkg,
+          version: info?.latest.version ?? null,
+          released: info ? Date.parse(info.latest.published) : null,
+          points: score?.grantedPoints ?? null,
+          maxPoints: score?.maxPoints ?? null,
+          platforms: score ? score.tags.filter((t) => t.startsWith("platform:")).length : null,
+        };
+      }
+      const info = await getJson(`https://proxy.golang.org/${pkg.module}/@latest`);
+      return {
+        ...pkg,
+        version: info?.Version ?? null,
+        released: info ? Date.parse(info.Time) : null,
+        points: null,
+        maxPoints: null,
+        platforms: null,
+      };
+    }),
+  );
+}
+
+function packagesCard(pkgs) {
+  const rowH = 46;
+  const top = 72;
+  const H = top + 30 + pkgs.length * rowH + 8;
+  const cols = { ver: 330, pts: 470, plat: 640, rel: 730 };
+  const muted = `<text font-size="13" fill="${theme.label}">–</text>`;
+  const head = [
+    [28, L.colPackage], [cols.ver, L.colVersion], [cols.pts, L.colPoints], [cols.plat, L.colPlatforms], [cols.rel, L.colReleased],
+  ].map(([x, t]) => `<text x="${x}" y="${top + 14}" font-size="11" fill="${theme.label}">${esc(t)}</text>`).join("");
+  const rows = pkgs.map((p, i) => {
+    const y = top + 30 + i * rowH;
+    const dash = (x) => `<text x="${x}" y="${y + 18}" font-size="14" fill="${theme.label}">–</text>`;
+    const barW = 70;
+    const pct = p.points != null ? p.points / p.maxPoints : 0;
+    return `<g class="in" style="animation-delay:${i * 120}ms">
+<line x1="28" y1="${y - 8}" x2="${W - 28}" y2="${y - 8}" stroke="${theme.label}" stroke-opacity=".18"/>
+<text x="28" y="${y + 12}" font-size="14" font-weight="600" fill="${theme.title}">${esc(p.name)}</text>
+<text x="28" y="${y + 28}" font-size="11" fill="${theme.label}">${esc(p.registry)}</text>
+${p.version ? `<text x="${cols.ver}" y="${y + 18}" font-size="14" font-weight="600" fill="${theme.text}">${esc(p.version)}</text>` : dash(cols.ver)}
+${p.points != null ? `<rect x="${cols.pts}" y="${y + 9}" width="${barW}" height="6" rx="3" fill="${theme.empty}"/>
+<rect x="${cols.pts}" y="${y + 9}" width="${(barW * pct).toFixed(1)}" height="6" rx="3" fill="${theme.accent}"/>
+<text x="${cols.pts + barW + 8}" y="${y + 17}" font-size="12" fill="${theme.label}">${p.points}/${p.maxPoints}</text>` : dash(cols.pts)}
+${p.platforms != null ? `<text x="${cols.plat}" y="${y + 18}" font-size="14" font-weight="600" fill="${theme.text}">${p.platforms}</text>` : dash(cols.plat)}
+${p.released ? `<text x="${cols.rel}" y="${y + 18}" font-size="12" fill="${theme.label}">${new Date(p.released).toLocaleDateString(L.locale, { month: "short", year: "numeric", timeZone: "UTC" })}</text>` : dash(cols.rel)}
+</g>`;
+  }).join("");
+  return svg(H, sectionTitle(L.packagesTitle, L.packagesSub) + head + rows, L.packagesAlt);
+}
+
 const data = await collect();
+const packages = await collectPackages();
+
 const s = streaks(data.days);
 for (const [code, locale] of Object.entries(LOCALES)) {
   L = locale;
@@ -469,6 +557,7 @@ for (const [code, locale] of Object.entries(LOCALES)) {
   writeFileSync(`${dir}/profile-stats.svg`, statsCard(s, data));
   writeFileSync(`${dir}/contributions.svg`, heatmapCard(s, data.days));
   writeFileSync(`${dir}/languages.svg`, languagesCard(data.langs));
+  writeFileSync(`${dir}/packages.svg`, packagesCard(packages));
 }
 writeFileSync(`${OUT}/banner-header.svg`, banner(false));
 writeFileSync(`${OUT}/banner-footer.svg`, banner(true));
